@@ -10,7 +10,7 @@
         />
       </el-form-item>
       <el-form-item label="课程学科" prop="subject">
-        <el-select v-model="queryParams.subject" placeholder="请选择课程学科" clearable>
+        <el-select v-model="queryParams.subject" placeholder="请选择课程学科" clearable style="width: 200px">
           <el-option
             v-for="dict in course_subject"
             :key="dict.value"
